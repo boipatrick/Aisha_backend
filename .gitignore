@@ -1,17 +1,262 @@
-# Virtual Environment
-venv/
-env/
-ENV/
+# Environment Variables
 .env
+.env.local
+.env.*.local
+*.env
 
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# IDE
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE & Editors
 .vscode/
 .idea/
-
-# Other
+*.swp
+*.swo
+*~
 .DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.vim/
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+instance/
+.webassets-cache
+
+# Logs
+*.log
+logs/
+*.log.gz
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Security
+secrets.json
+*.pem
+*.key
+*.pub
+*.crt
+
+# Certificates
+*.csr
+*.p7b
+*.p7r
+*.p7s
+
+# Node/Frontend (if applicable)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Docker
+.docker
+docker-compose.override.yml
+
+# AWS/Cloud
+.aws/
+.gcloud/
+credentials.json
+service-account-key.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+~*
+*.swp
+*.swo
+
+# IDEs specific files
+.vscode/settings.json
+.vscode/extensions.json
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Poetry
+poetry.lock
+
+# Pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+.sagemath/
+
+# Environments
+.env.vault
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Local development
+local_settings.py
+.local/
+*.local
+
+# Uploads/Media (if storing locally)
+uploads/
+media/
+temp/
+tmp/
+
+# Generated files
+*.generated.py
+*.auto.py
+
+# macOS
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+
+# Build artifacts
+build/
+*.egg-info/
+dist/
+
+# IDE temporary files
+*.code-workspace
+
+# Environment-specific files
+.env.development
+.env.testing
+.env.production
+
+# API Keys and Secrets (IMPORTANT!)
+/config/secrets/
+api_keys/
+tokens/
+credentials/
+
+# Database backups
+*.dump
+*.sql
+backup/
+dumps/
+
+# Cache directories
+.cache/
+cache/
+tmp/
+temp/
+
+# Test reports
+htmlcov/
+.coverage
+coverage_html_report/
+
+# Documentation builds
+docs/_build/
+site/
+
+# IDE configurations that shouldn't be shared
+.editorconfig.local
+.prettierrc.local
+
+# System files
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Git patches
+*.patch
+*.diff
+
+# Miscellaneous
+.tern-port
+.vscode-test
+*.vsix
