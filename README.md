@@ -305,10 +305,10 @@ Edit `.env` with your actual credentials:
 
 ```env
 # ===== Database Configuration =====
-DATABASE_URL=postgresql://api_user:Excalibar598@localhost:5433/waiting_list_db
+DATABASE_URL=""
 
 # ===== Google Gemini API =====
-GEMINI_API_KEY=AIzaSyA11NyaEUfh0642RYVPgVF4Qw6SRbzqqaA
+GEMINI_API_KEY=""
 
 # ===== Twilio WhatsApp Configuration =====
 TWILIO_ACCOUNT_SID=your_account_sid_here
